@@ -8,7 +8,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "deploy": " ./deploy-docs.sh"
+    "deploy": "./deploy-build.sh"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",

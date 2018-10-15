@@ -397,7 +397,7 @@ Apache хорош для новичков и маленьких проектов
 
 - [.ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
 
-— Возможность создавать **.\*ignore** файлы по многим шаблонам, причем их можно комбинировать, подсвечивает правила в файле, и другие полезные фишки для таких файлов.
+— Возможность создавать **.\*ignore** файлы по многим шаблонам, причем их можно комбинировать, подсвечивает правила в таких файлах, подсвечивает игнорируемые файлы/папки.
 
 ![](https://i.imgur.com/WXHEZjN.png)
 
@@ -452,20 +452,16 @@ PHP Class Templates
 
 ### Ознакомиться
 
-Скринкаст phpstorm Live Templates:
-- [https://symfonycasts.com/screencast/phpstorm/live-templates]() 
+- [Скринкаст PhpStorm Live Templates](https://symfonycasts.com/screencast/phpstorm/live-templates) 
 
-Live Templates для Symfony. 
 У меня не было папки templates в `C:\Users\User\.PhpStorm2018.2\config`, поэтому не поставил.
 
-- [https://github.com/knpuniversity/phpstorm-settings]()
+- [Live Templates для Symfony](https://github.com/knpuniversity/phpstorm-settings)
 
-Скринкаст phpstorm:
-
-- [https://symfonycasts.com/screencast/phpstorm]()
+- [Скринкаст phpstorm](https://symfonycasts.com/screencast/phpstorm)
 
 От себя могу добавить [такой](https://laracasts.com/series/how-to-be-awesome-in-phpstorm) скринкаст. 
-На [laracasts.com]() есть много видео.
+На [laracasts.com](laracasts.com) есть много видео.
 
 Для часто используемых конструкций есть Live Templates, это когда пишешь коротко слово, 
 нажимаешь Tab (клавиша настраивается) и появляется конструкция языка в которой по очереди можно указать параметры.
@@ -593,7 +589,7 @@ Copyright (c) 1997-2017 The PHP Group
 Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 ```
 
-Решил проблему довольно легко наткнувшись на сайт [http://xdebug.org/wizard.php]().
+Решил проблему довольно легко наткнувшись на сайт [xdebug.org/wizard.php](http://xdebug.org/wizard.php).
 Туда нужно вставить информацию о `phpinfo()`, сайт определит какой бинарник скачать (`.dll`) 
 и что написать в конфиг.
 
@@ -619,7 +615,7 @@ ini_set('display_errors', 1);
 restore_error_handler();
 ```
 
-В этом врядли есть смысл, но полезно знать.
+В этом вряд ли есть смысл, но полезно знать.
 
 ### Установить браузерное расширение
 

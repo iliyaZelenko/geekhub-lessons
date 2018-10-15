@@ -18,20 +18,32 @@ module.exports = {
       }
     }],
     ['@vuepress/back-to-top'],
-    // ['@vuepress/google-analytics', {
-    //   ga: ''
-    // }]
+    ['@vuepress/google-analytics', {
+      ga: 'UA-127403551-1'
+    }],
+    ['@vuepress/last-updated']
   ],
 
   title: 'Geekhub lessons',
   description: 'Geekhub lessons detailed information',
   // layout: 'SpecialLayout',
   base: '/geekhub-lessons/',
-  // head: [
-  //   ['link', { rel: 'icon', href: `/logo.png` }
-  // ],
+  head: [
+    ['link', { rel: 'icon', href: '/images/logo.jpg' }],
+    // гугл AdSense
+    ['script', { async: true, src: 'http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }], // был префикс //
+    ['script', {}, `
+      if (window) { // check if client (process.client не работало)
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-3193142825248335",
+          enable_page_level_ads: true
+        });
+      }
+    `]
+  ],
 
   themeConfig: {
+    logo: '/images/header-logo.png',
     // Assumes GitHub. Can also be a full GitLab url.
     repo: 'iliyaZelenko/geekhub-lessons',
 
